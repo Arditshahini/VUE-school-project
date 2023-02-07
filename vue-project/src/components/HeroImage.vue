@@ -8,5 +8,14 @@
       alt="car"
     />
   </div>
+  <div class="centered">
+    <h1>Bilar till salu:</h1>
+  </div>
 </template>
-<styled scope></styled>
+<style scope>
+#wrapper-hero img {
+  margin: 0 auto;
+  height: auto;
+  overflow-x: hidden;
+}
+</style>
