@@ -5,5 +5,12 @@ import CarSection from "../components/CarSection.vue";
 
 <template>
   <HeroImage />
-  <CarSection />
+  <div class="container text-center">
+    <div class="row align-items-start">
+      <CarSection />
+      <CarSection />
+      <CarSection />
+    </div>
+  </div>
 </template>
+
