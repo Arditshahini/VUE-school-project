@@ -18,4 +18,8 @@
     </div>
   </div>
 </template>
-<style scope></style>
+<style scope>
+.col {
+  margin-top: 8rem;
+}
+</style>

@@ -1,6 +1,7 @@
 <script setup>
 import HeroImage from "../components/HeroImage.vue";
 import CarSection from "../components/CarSection.vue";
+import FooterView from "../components/FooterView.vue";
 </script>
 
 <template>
@@ -12,5 +13,6 @@ import CarSection from "../components/CarSection.vue";
       <CarSection />
     </div>
   </div>
-</template>
 
+  <FooterView />
+</template>

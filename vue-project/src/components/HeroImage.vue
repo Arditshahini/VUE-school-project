@@ -3,7 +3,7 @@
 <template>
   <div id="wrapper-hero">
     <img
-      src="../assets/img/pexels-photo-120049.webp"
+      src="../assets/img/pexels-photo-3422964.webp"
       class="img-fluid"
       alt="car"
     />
@@ -17,5 +17,8 @@
   margin: 0 auto;
   height: auto;
   overflow-x: hidden;
+}
+h1 {
+  margin-top: 8rem;
 }
 </style>
