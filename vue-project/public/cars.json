@@ -4,66 +4,76 @@
     "name": "Mercedes",
     "model": "C500",
     "price": "589.000",
-    "src": "/vue-project/src/assets/img/pexels-photo-3422964.webp"
+    "image": "pexels-photo-3422964.webp"
   },
   {
     "id": "1001",
     "name": "Audi",
     "model": "Q5",
-    "price": "549.000"
+    "price": "549.000",
+    "image": "pexels-photo-audi.jpeg"
   },
   {
     "id": "1002",
     "name": "Volvo",
     "model": "XC60",
-    "price": "529.000"
+    "price": "529.000",
+    "image": "pexels-photo-volvo.jpeg"
   },
   {
     "id": "1003",
     "name": "Volkswagen",
     "model": "Tiguan",
-    "price": "489.000"
+    "price": "489.000",
+    "image": "pexels-photo-VW.jpeg"
   },
   {
     "id": "1004",
     "name": "BMW",
-    "model": "X5",
-    "price": "519.000"
+    "model": "M5",
+    "price": "519.000",
+    "image": "pexels-photo-bmw.jpeg"
   },
   {
     "id": "1005",
     "name": "Skoda",
     "model": "Octavia",
-    "price": "319.000"
+    "price": "319.000",
+    "image": "pexels-photo-skoda.jpeg"
   },
   {
     "id": "1006",
     "name": "Renault",
     "model": "Megane",
-    "price": "299.000"
+    "price": "299.000",
+    "image": "pexels-photo-renault.jpeg"
   },
   {
     "id": "1007",
     "name": "Peugeot",
     "model": "3008",
-    "price": "299.000"
+    "price": "299.000",
+    "image": "pexels-photo-peugeot.webp"
   },
   {
     "id": "1008",
     "name": "Citroën",
     "model": "DS4",
-    "price": "329.000"
+    "price": "329.000",
+    "image": "pexels-photo-citroen.jpeg"
   },
   {
     "id": "1009",
     "name": "Ferrari",
     "model": "812",
-    "price": "1.699.000"
+    "price": "1.699.000",
+    "image": "pexels-photo-ferrari.jpeg"
   },
   {
-    "id": "10010",
+    "id": "1010",
     "name": "Porche",
     "model": "Panamera",
-    "price": "1.299.000"
+    "price": "1.299.000",
+    "image": "pexels-photo-porsche.webp"
   }
 ]
