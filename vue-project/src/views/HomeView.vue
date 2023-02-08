@@ -7,7 +7,7 @@ import FooterView from "../components/FooterView.vue";
 <template>
   <HeroImage />
 
-  <div class="container text-center">
+  <div class="container text-center float:right">
     <div class="d-flex flex-row flex-nowrap overflow-auto">
       <car-offers v-for="car in cars" :key="car.id" :offer="car" />
     </div>

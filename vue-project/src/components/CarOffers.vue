@@ -10,7 +10,7 @@ export default {
 </script>
 <template>
   <div class="col">
-    <div class="card" style="width: 18rem">
+    <div class="card" style="width: 18rem; margin: 3rem">
       <img
         :src="'/src/assets/img/' + offer.image"
         class="card-img-top"
@@ -26,8 +26,4 @@ export default {
     </div>
   </div>
 </template>
-<style scope>
-.col {
-  margin-top: 8rem;
-}
-</style>
+<style scope></style>

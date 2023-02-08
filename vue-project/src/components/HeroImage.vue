@@ -21,6 +21,6 @@
 h1 {
   display: flex;
   justify-content: center;
-  margin-top: 8rem;
+  margin-top: 3rem;
 }
 </style>
