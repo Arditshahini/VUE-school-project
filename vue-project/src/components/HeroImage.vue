@@ -19,6 +19,8 @@
   overflow-x: hidden;
 }
 h1 {
+  display: flex;
+  justify-content: center;
   margin-top: 8rem;
 }
 </style>

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1000",
+    "name": "Mercedes",
+    "model": "C500",
+    "price": "589.000"
+  },
+  {
+    "id": "1001",
+    "name": "Audi",
+    "model": "Q5",
+    "price": "549.000"
+  },
+  {
+    "id": "1002",
+    "name": "Volvo",
+    "model": "XC60",
+    "price": "529.000"
+  },
+  {
+    "id": "1003",
+    "name": "Volkswagen",
+    "model": "Tiguan",
+    "price": "489.000"
+  },
+  {
+    "id": "1004",
+    "name": "BMW",
+    "model": "X5",
+    "price": "519.000"
+  },
+  {
+    "id": "1005",
+    "name": "Skoda",
+    "model": "Octavia",
+    "price": "319.000"
+  },
+  {
+    "id": "1006",
+    "name": "Renault",
+    "model": "Megane",
+    "price": "299.000"
+  },
+  {
+    "id": "1007",
+    "name": "Peugeot",
+    "model": "3008",
+    "price": "299.000"
+  },
+  {
+    "id": "1008",
+    "name": "Citroën",
+    "model": "DS4",
+    "price": "329.000"
+  },
+  {
+    "id": "1009",
+    "name": "Ferrari",
+    "model": "812",
+    "price": "1.699.000"
+  },
+  {
+    "id": "10010",
+    "name": "Porche",
+    "model": "Panamera",
+    "price": "1.299.000"
+  }
+]
