@@ -20,7 +20,7 @@ export default {
         <h5 class="card-title">Märke: {{ offer.name }}</h5>
         <p class="card-text">Model: {{ offer.model }}</p>
         <p class="card-text2">Pris: {{ offer.price }}</p>
-        <a href="#" class="btn btn-primary">Köp</a>
+        <a href="#" class="btn btn-secondary">Köp</a>
       </div>
     </div>
   </div>

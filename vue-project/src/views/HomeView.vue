@@ -24,7 +24,7 @@ export default {
     };
   },
   components: { "car-offers": CarSection },
-  /* mounted () : it will executed before creating the component. created () : it will executed after creating the component for render. */
+
   mounted() {
     this.fetchData();
   },

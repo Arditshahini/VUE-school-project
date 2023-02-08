@@ -1,5 +1,5 @@
 <script setup>
-import { RouterView } from "vue-router";
+import { RouterLink, RouterView } from "vue-router";
 </script>
 
 <template>
@@ -33,10 +33,10 @@ import { RouterView } from "vue-router";
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Start</a>
+              <RouterLink to="/">Start</RouterLink>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Om</a>
+              <RouterLink to="/about">Om</RouterLink>
             </li>
           </ul>
         </div>

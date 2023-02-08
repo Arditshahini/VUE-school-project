@@ -3,7 +3,8 @@
     "id": "1000",
     "name": "Mercedes",
     "model": "C500",
-    "price": "589.000"
+    "price": "589.000",
+    "src": "/vue-project/src/assets/img/pexels-photo-3422964.webp"
   },
   {
     "id": "1001",
