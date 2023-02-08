@@ -5,7 +5,7 @@ import { RouterLink, RouterView } from "vue-router";
 <template>
   <nav class="navbar navbar-dark bg-dark fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Labb1</a>
+      <RouterLink to="/">Bilsäljarn</RouterLink>
       <button
         class="navbar-toggler"
         type="button"
@@ -45,3 +45,4 @@ import { RouterLink, RouterView } from "vue-router";
   </nav>
   <RouterView />
 </template>
+<style scoped></style>
