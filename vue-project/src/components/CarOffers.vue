@@ -11,7 +11,12 @@ export default {
 <template>
   <div class="col">
     <div class="card" style="width: 18rem">
-      <img src="{{offer.image}}" class="card-img-top" alt="cars" />
+      <img
+        :src="'/src/assets/img/' + offer.image"
+        class="card-img-top"
+        alt="cars"
+        style="height: 20rem"
+      />
       <div class="card-body">
         <h5 class="card-title">Märke: {{ offer.name }}</h5>
         <p class="card-text">Model: {{ offer.model }}</p>
