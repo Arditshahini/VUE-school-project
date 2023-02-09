@@ -4,7 +4,7 @@ import { RouterLink, RouterView } from "vue-router";
 
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-    <a class="navbar-brand" style="color: white" href="#">Bilsäljarn</a>
+    <a class="navbar-brand" style="color: white" href="#">AUTOSALOON</a>
     <button
       class="navbar-toggler"
       type="button"
