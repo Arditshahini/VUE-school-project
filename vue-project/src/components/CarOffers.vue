@@ -6,6 +6,21 @@ export default {
       type: Object,
     },
   },
+  data() {
+    return {
+      quantity: 0,
+    };
+  },
+  methods: {
+    incrementQuantity() {
+      this.quantity++;
+    },
+    decrementQuantity() {
+      if (this.quantity > 0) {
+        this.quantity--;
+      }
+    },
+  },
 };
 </script>
 <template>
@@ -21,10 +36,21 @@ export default {
         <h5 class="card-title">Märke: {{ offer.name }}</h5>
         <p class="card-text">Model: {{ offer.model }}</p>
         <p class="card-text2">Pris: {{ offer.price }}</p>
-        <a href="#" class="btn btn-secondary">Köp</a>
+        <button class="btn btn-secondary" @click="decrementQuantity">-</button>
+        <button
+          class="btn btn-secondary"
+          style="margin-left: 4px"
+          @click="incrementQuantity"
+        >
+          +
+        </button>
+        Antal: {{ quantity }}
+        <router-link to="/about">
+          <button class="btn btn-secondary">KÖP</button>
+        </router-link>
       </div>
+      <div></div>
     </div>
   </div>
 </template>
-<script></script>
 <style scope></style>
