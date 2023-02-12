@@ -42,7 +42,7 @@ export default {
       <div class="card-body">
         <h5 class="card-title">Märke: {{ offer.name }}</h5>
         <p class="card-text">Model: {{ offer.model }}</p>
-        <p class="card-text2">Pris: {{ offer.price }}</p>
+        <p class="card-text2">Pris: {{ offer.price }} SEK</p>
         <button class="btn btn-secondary" @click="decrementQuantity">-</button>
         <button
           class="btn btn-secondary"
