@@ -20,6 +20,13 @@ export default {
         this.quantity--;
       }
     },
+    handlePurchase(offer) {
+      //   alert(productId);
+      this.$router.push({
+        name: "checkout",
+        params: { offerId: offer.id, quantity: this.quantity },
+      });
+    },
   },
 };
 </script>
@@ -45,9 +52,9 @@ export default {
           +
         </button>
         Antal: {{ quantity }}
-        <router-link to="/about">
-          <button class="btn btn-secondary">KÖP</button>
-        </router-link>
+        <button class="btn btn-secondary" @click="handlePurchase(offer)">
+          Köp
+        </button>
       </div>
       <div></div>
     </div>

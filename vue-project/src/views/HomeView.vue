@@ -12,7 +12,7 @@ import FooterView from "../components/FooterView.vue";
       <car-offers v-for="car in cars" :key="car.id" :offer="car" />
     </div>
   </div>
-
+  <CheckOut />
   <FooterView />
 </template>
 <script>
