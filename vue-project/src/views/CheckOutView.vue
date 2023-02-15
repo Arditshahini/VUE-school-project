@@ -5,6 +5,6 @@ import CheckOut from "../components/CheckOut.vue";
 
 <template>
   <CheckOut />
-  <p>Checkout page</p>
+
   <FooterView />
 </template>
