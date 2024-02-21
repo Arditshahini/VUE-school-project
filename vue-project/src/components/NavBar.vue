@@ -2,6 +2,7 @@
 import { RouterLink, RouterView } from "vue-router";
 </script>
 
+
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-dark">
     <a class="navbar-brand" style="color: black" href="/">BILSALONGEN AB</a>
